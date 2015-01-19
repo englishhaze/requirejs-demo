@@ -1,0 +1,14 @@
+{
+  "name": "requireJSdemo",
+  "version": "1.0.0",
+  "description": "requireJS demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
