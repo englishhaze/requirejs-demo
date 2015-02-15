@@ -16,9 +16,10 @@ requirejs.config({
     }
 });
 
-// Start the main app logic.
-requirejs(['jquery', 'app/module'],
-function   ($,        module) {
-    //jQuery, app/module are all loaded and can be used here now.
-	
-});
+requirejs(['app/helpButton', 'app/ajaxButton'],
+		function (helpButton, ajaxButton) {
+		    // app/ajaxButton and the app/helpButton modules are all
+		    // loaded and can be used here now.
+			helpButton.wire();
+			ajaxButton.wire();
+		});
